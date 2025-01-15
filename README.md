@@ -27,3 +27,19 @@ Se trabajó en ReactJS con TypeScript para una mejor organización, tipado estri
 npm run dev
 
 Abrir en el navegador: Una vez se cargue la ejecución, dirígete a http://localhost:5173/ para visualizar la interfaz.
+
+Scripts disponibles
+
+npm run dev: Inicia el servidor de desarrollo.
+npm run build: Construye el proyecto para producción.
+npm run test: Ejecuta las pruebas unitarias con Jest.
+npm jest: Realiza la validación de las pruebas unitarias.
+
+
+## Validación de pruebas unitarias
+
+Para ejecutar y validar las pruebas unitarias del proyecto, utiliza el siguiente comando:
+
+npm test
+
+Este comando ejecutará todas las pruebas configuradas en el proyecto y mostrará el resultado en la consola, indicando si las funcionalidades cumplen con los criterios definidos.
