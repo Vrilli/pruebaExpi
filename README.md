@@ -1,50 +1,31 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto está desarrollado con las siguientes tecnologías:
 
-Currently, two official plugins are available:
+- **Vite**: Empaquetador de librerías que proporciona un entorno de desarrollo rápido y eficiente.
+- **TailwindCSS**: Manejador de estilos que permite crear interfaces modernas con un diseño limpio y flexible.
+- **Ant Design**: Conjunto de componentes predefinidos que facilita el desarrollo de interfaces de usuario        profesionales y consistentes.
+- **Axios**: Biblioteca para el manejo de peticiones HTTP, que simplifica la comunicación con APIs.
+- **Jest**: Marco para realizar pruebas unitarias, garantizando la calidad y estabilidad del código.
+- **Vercel**: Para realizar el despliegue de la app.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Se trabajó en ReactJS con TypeScript para una mejor organización, tipado estricto y mantenimiento del código, asegurando una mayor escalabilidad, detección temprana de errores y mejorando la experiencia de desarrollo gracias a las herramientas avanzadas de autocompletado.
 
-## Expanding the ESLint configuration
+## Instalación y uso
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. **Clonar el repositorio:**
+   ```bash
+   git clone <https://github.com/Vrilli/pruebaExpi.git>
+   cd <mypost>
 
-- Configure the top-level `parserOptions` property like this:
+2. **Instalar dependencias:**
+  npm install
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+3. **Correr el proyecto en modo desarrollo:**
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+npm run dev
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Abrir en el navegador: Una vez se cargue la ejecución, dirígete a http://localhost:5173/ para visualizar la interfaz.
+
+Si lo que quieres es visualizar la interfas sin necesidad de descargar el proyecto en tu maquina lo puedes realizar a traves del siguiente link: 
